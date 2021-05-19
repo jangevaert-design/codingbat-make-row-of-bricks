@@ -11,15 +11,7 @@ makeBricks(3, 2, 10) → true
 
    */
 
-  private static int small;
-  private int big;
-  private int goal;
 
-  public RowOfBricks() {
-    this.small = small;
-    this.big = big;
-    this.goal = goal;
-  }
 
   public static void main(String[] args) {
       RowOfBricks rowOfBricks = new RowOfBricks();
